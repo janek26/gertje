@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { FC } from "react";
 import { P } from "./Typography";
+import Link from "next/link";
 
 const CardWrapper = styled.div<{ img: string }>`
   position: relative;
@@ -32,7 +33,15 @@ const CardContent = styled.div`
     opacity: 0;
     transition: all 300ms ease-in-out;
   }
+  @media (hover: none) {
+    padding-top: 20px;
+    backdrop-filter: blur(4px) brightness(80%);
 
+    & > ${P} {
+      transition-delay: 200ms;
+      opacity: 1;
+    }
+  }
   &:hover {
     padding-top: 20px;
     backdrop-filter: blur(4px) brightness(80%);
@@ -44,10 +53,16 @@ const CardContent = styled.div`
   }
 `;
 
-export const Card: FC<{ img: string }> = ({ children, img = "" }) => {
+export const Card: FC<{ img: string; href?: string }> = ({
+  children,
+  img = "",
+  href = "",
+}) => {
   return (
     <CardWrapper img={img}>
-      <CardContent>{children}</CardContent>
+      <Link href={href}>
+        <CardContent>{children}</CardContent>
+      </Link>
     </CardWrapper>
   );
 };

@@ -8,10 +8,10 @@ import { H1, P } from "../components/Typography";
 
 const Home: NextPage = () => (
   <>
-    <Header />
+    <Header fixed={false} />
     <Hero />
     <Grid>
-      <Card img="/robi.jpg">
+      <Card img="/robi.jpg" href="/robis">
         <H1>Robis</H1>
         <P>
           Lorem nostrud irure sit laborum Lorem ex fugiat anim magna. Nisi

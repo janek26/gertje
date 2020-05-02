@@ -44,6 +44,10 @@ const HeaderWrapper = styled.header<{
   left: 0;
   right: 0;
   transition: all 200ms ease-in-out;
+
+  @media (max-width: 1180px) {
+    flex-direction: column;
+  }
 `;
 
 const Flex = styled.div`

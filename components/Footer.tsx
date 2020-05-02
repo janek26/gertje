@@ -13,6 +13,10 @@ const FooterWrapper = styled.div`
   background-color: #6ab04c;
   border-top: 15px solid #e4803a;
   color: white;
+
+  @media (max-width: 1180px) {
+    flex-direction: column;
+  }
 `;
 
 const StyledCopyright = styled(Copyright)`
