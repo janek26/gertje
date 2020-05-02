@@ -5,11 +5,26 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "format": "prettier --write \"**/*.{js,css,md}\"",
+    "posttest": "npm run format"
   },
   "dependencies": {
+    "@styled-icons/fa-brands": "^10.0.0",
+    "@styled-icons/fa-regular": "^10.0.0",
+    "@styled-icons/fa-solid": "^10.0.0",
     "next": "9.3.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.0",
+    "styled-reset": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.0.1",
+    "prettier": "^2.0.4",
+    "typescript": "^3.8.3"
   }
 }

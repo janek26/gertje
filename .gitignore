@@ -28,3 +28,13 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+node_modules/
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.log
+package-lock.json
+
+.now
