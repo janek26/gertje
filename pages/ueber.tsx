@@ -15,7 +15,7 @@ const Impressum: NextPage = () => (
       <Image width="1000" height="500" layout="responsive" src="/team.jpg" />
       <H3>Seit 1800</H3>
       <P>
-        Exercitation magna cupidatat nulla ullamco veniam pariatur sunt sint
+        Exercitation2 magna cupidatat nulla ullamco veniam pariatur sunt sint
         voluptate excepteur labore pariatur aliquip velit. Culpa officia velit
         ullamco aliqua ad consectetur ipsum. Ex commodo et Lorem dolor.
         Excepteur adipisicing incididunt consectetur et est veniam sunt
