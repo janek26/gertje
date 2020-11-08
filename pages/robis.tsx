@@ -5,30 +5,25 @@ import { NextPage } from "next";
 import { PageLayout } from "../components/PageLayout";
 
 import { H1, P, H3 } from "../components/Typography";
-import styled from "styled-components";
-
-const Img = styled.img`
-  border: none;
-  margin: 0;
-  padding: 0;
-  border-radius: 3px;
-`;
+import Link from "next/link";
+import Image from "next/image";
 
 const Impressum: NextPage = () => (
   <>
     <Header colorful fixed={false} />
     <PageLayout>
       <H1>Robis</H1>
-      <Img width="100%" src="/robi.jpg" />
+      <Image width="1000" height="500" src="/robi.jpg" layout="responsive" />
       <H3>Seit 1800</H3>
       <P>
-        Exercitation magna cupidatat nulla ullamco veniam pariatur sunt sint
-        voluptate excepteur labore pariatur aliquip velit. Culpa officia velit
-        ullamco aliqua ad consectetur ipsum. Ex commodo et Lorem dolor.
-        Excepteur adipisicing incididunt consectetur et est veniam sunt
-        adipisicing irure eu ullamco id in. Cupidatat esse sunt nisi qui nostrud
-        irure tempor elit tempor. Sunt qui est amet reprehenderit est
-        adipisicing consequat irure magna irure incididunt nulla est.
+        Exercitation <Link href="/kontakt">Kontakt aufnh</Link> nulla ullamco
+        veniam pariatur sunt sint voluptate excepteur labore pariatur aliquip
+        velit. Culpa officia velit ullamco aliqua ad consectetur ipsum. Ex
+        commodo et Lorem dolor. Excepteur adipisicing incididunt consectetur et
+        est veniam sunt adipisicing irure eu ullamco id in. Cupidatat esse sunt
+        nisi qui nostrud irure tempor elit tempor. Sunt qui est amet
+        reprehenderit est adipisicing consequat irure magna irure incididunt
+        nulla est.
       </P>
 
       <P>

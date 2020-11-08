@@ -8,5 +8,5 @@ export const Hero = styled.div`
   background-size: cover;
   background-position-x: top;
   background-position-y: center;
-  border-bottom: 15px solid #e4803a;
+  border-bottom: 15px solid #ee7203;
 `;

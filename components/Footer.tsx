@@ -10,8 +10,8 @@ const FooterWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 60px 70px;
-  background-color: #6ab04c;
-  border-top: 15px solid #e4803a;
+  background-color: #333333;
+  border-top: 15px solid #ee7203;
   color: white;
 
   @media (max-width: 1180px) {

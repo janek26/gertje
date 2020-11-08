@@ -2,24 +2,17 @@ import { Header } from "../components/Header";
 
 import { Footer } from "../components/Footer";
 import { NextPage } from "next";
+import Image from "next/image";
 import { PageLayout } from "../components/PageLayout";
 
 import { H1, P, H3 } from "../components/Typography";
-import styled from "styled-components";
-
-const Img = styled.img`
-  border: none;
-  margin: 0;
-  padding: 0;
-  border-radius: 3px;
-`;
 
 const Impressum: NextPage = () => (
   <>
     <Header colorful fixed={false} />
     <PageLayout>
       <H1>Das Team</H1>
-      <Img width="100%" src="/team.jpg" />
+      <Image width="1000" height="500" layout="responsive" src="/team.jpg" />
       <H3>Seit 1800</H3>
       <P>
         Exercitation magna cupidatat nulla ullamco veniam pariatur sunt sint

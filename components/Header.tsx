@@ -21,9 +21,9 @@ const HeaderWrapper = styled.header<{
     colorful
       ? `linear-gradient(
           0deg,
-          #E4803A 15px,
-          #6ab04c 15px,
-          #6ab04c 100%
+          #ee7203 15px,
+          #333333 15px,
+          #333333 100%
         )`
       : solid
       ? `linear-gradient(

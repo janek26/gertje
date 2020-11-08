@@ -83,15 +83,6 @@ const Home: NextPage = () => (
           Magna magna ad minim fugiat labore.
         </P>
       </Card>
-      <Card img={"https://source.unsplash.com/random?wood"}>
-        <H1>Motoren</H1>
-        <P>
-          Lorem nostrud irure sit laborum Lorem ex fugiat anim magna. Nisi
-          aliquip exercitation qui duis ut aliqua irure do mollit nisi.
-          Cupidatat ipsum eiusmod magna adipisicing veniam do ad voluptate qui.
-          Magna magna ad minim fugiat labore.
-        </P>
-      </Card>
     </Grid>
     <Footer />
   </>

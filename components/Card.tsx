@@ -7,7 +7,7 @@ const CardWrapper = styled.div<{ img: string }>`
   position: relative;
   width: 100%;
   padding-top: 90%;
-  border: 1px solid #ccc;
+  border: 1px solid #333333;
   border-radius: 3px;
   background-color: white;
   background-image: url('${({ img }) => img}');
